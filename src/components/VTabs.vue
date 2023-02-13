@@ -66,6 +66,12 @@ select {
   flex: calc(33.33% - 6px);
 }
 
+@media screen and (max-width:767px) {
+.images .image {
+  flex: 100%;
+}
+}
+
 .image img {
     width: 100%;
     aspect-ratio: 1/1;
